@@ -1,0 +1,14 @@
+{
+  "name": "@indigoprotocol/cardano-wallet",
+  "version": "0.1.0",
+  "description": "Cardano wallet skills — balances, identity, staking, and transactions",
+  "keywords": ["cardano", "wallet", "mcp", "skills", "blockchain"],
+  "type": "module",
+  "files": ["skills", "CLAUDE.md", "README.md"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IndigoProtocol/cardano-ai.git",
+    "directory": "packages/plugins/cardano-wallet"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "owner": "IndigoProtocol",
+  "plugins": [
+    {
+      "name": "cardano-wallet",
+      "package": "@indigoprotocol/cardano-wallet",
+      "description": "Cardano wallet skills — balances, identity, staking, and transactions",
+      "skills": [
+        "packages/plugins/cardano-wallet/skills/cardano-balances/SKILL.md",
+        "packages/plugins/cardano-wallet/skills/cardano-identity/SKILL.md",
+        "packages/plugins/cardano-wallet/skills/cardano-staking/SKILL.md",
+        "packages/plugins/cardano-wallet/skills/cardano-transactions/SKILL.md"
+      ]
+    }
+  ]
+}

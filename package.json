@@ -1,0 +1,16 @@
+{
+  "name": "@indigoprotocol/cardano-ai",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Cardano AI Skills monorepo",
+  "workspaces": [
+    "packages/plugins/*",
+    "packages/cardano-skills"
+  ],
+  "scripts": {
+    "publish:wallet": "npm publish --workspace=@indigoprotocol/cardano-wallet --access=public",
+    "publish:skills": "npm publish --workspace=@indigoprotocol/cardano-skills --access=public",
+    "publish:all": "npm run publish:wallet && npm run publish:skills"
+  },
+  "license": "MIT"
+}
