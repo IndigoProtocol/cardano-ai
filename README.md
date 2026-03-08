@@ -3,8 +3,11 @@
 > AI skills for the Cardano blockchain
 
 [![npm](https://img.shields.io/npm/v/@indigoprotocol/cardano-skills)](https://www.npmjs.com/package/@indigoprotocol/cardano-skills)
+[![downloads](https://img.shields.io/npm/dm/@indigoprotocol/cardano-skills)](https://www.npmjs.com/package/@indigoprotocol/cardano-skills)
 [![cardano-wallet](https://img.shields.io/npm/v/@indigoprotocol/cardano-wallet?label=cardano-wallet)](https://www.npmjs.com/package/@indigoprotocol/cardano-wallet)
+[![downloads](https://img.shields.io/npm/dm/@indigoprotocol/cardano-wallet)](https://www.npmjs.com/package/@indigoprotocol/cardano-wallet)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Smithery Skills](https://img.shields.io/badge/Smithery-4_skills-green)](https://smithery.ai/skills?q=indigoprotocol)
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/IndigoProtocol/cardano-ai)
 
 [Agent Skills](https://agentskills.io/home) for the [Cardano MCP Server](https://github.com/IndigoProtocol/cardano-mcp) -- wallet balances, ADAHandles, staking, and transaction submission for AI agents.
@@ -118,12 +121,12 @@ Add the Cardano MCP server to your agent config:
 
 ## Skills
 
-| Skill | Description | Tools |
-|-------|-------------|-------|
-| **cardano-balances** | Wallet balances, addresses, and UTxOs | get_balances, get_addresses, get_utxos |
-| **cardano-identity** | ADAHandle resolution and lookup | get_adahandles |
-| **cardano-staking** | Stake delegation and rewards | get_stake_delegation |
-| **cardano-transactions** | Transaction submission with safety model | submit_transaction |
+| Skill | Description | Tools | Smithery |
+|-------|-------------|-------|----------|
+| **cardano-balances** | Wallet balances, addresses, and UTxOs | get_balances, get_addresses, get_utxos | [![activations](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.smithery.ai%2Fskills%3Fnamespace%3Dindigoprotocol%26slug%3Dcardano-balances&query=%24.skills%5B0%5D.totalActivations&label=activations&color=green)](https://smithery.ai/skill/indigoprotocol/cardano-balances) |
+| **cardano-identity** | ADAHandle resolution and lookup | get_adahandles | [![activations](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.smithery.ai%2Fskills%3Fnamespace%3Dindigoprotocol%26slug%3Dcardano-identity&query=%24.skills%5B0%5D.totalActivations&label=activations&color=green)](https://smithery.ai/skill/indigoprotocol/cardano-identity) |
+| **cardano-staking** | Stake delegation and rewards | get_stake_delegation | [![activations](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.smithery.ai%2Fskills%3Fnamespace%3Dindigoprotocol%26slug%3Dcardano-staking&query=%24.skills%5B0%5D.totalActivations&label=activations&color=green)](https://smithery.ai/skill/indigoprotocol/cardano-staking) |
+| **cardano-transactions** | Transaction submission with safety model | submit_transaction | [![activations](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.smithery.ai%2Fskills%3Fnamespace%3Dindigoprotocol%26slug%3Dcardano-transactions&query=%24.skills%5B0%5D.totalActivations&label=activations&color=green)](https://smithery.ai/skill/indigoprotocol/cardano-transactions) |
 
 ---
 
