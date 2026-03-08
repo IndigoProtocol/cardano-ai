@@ -18,16 +18,66 @@ Built on the open [Agent Skills](https://agentskills.io/home) standard -- a port
 ### Quick Install (all skills)
 
 ```bash
+npx @indigoprotocol/cardano-skills --all
+```
+
+### Interactive Install
+
+```bash
 npx @indigoprotocol/cardano-skills
 ```
 
-### Standard Skills CLI
+```
+ ██████╗ █████╗ ██████╗ ██████╗  █████╗ ███╗   ██╗ ██████╗
+██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔══██╗████╗  ██║██╔═══██╗
+██║     ███████║██████╔╝██║  ██║███████║██╔██╗ ██║██║   ██║
+██║     ██╔══██║██╔══██╗██║  ██║██╔══██║██║╚██╗██║██║   ██║
+╚██████╗██║  ██║██║  ██║██████╔╝██║  ██║██║ ╚████║╚██████╔╝
+ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝
+
+  Cardano AI  — Wallet skills for AI agents
+
+  Found 4 skills
+
+  Select skills to install (space to toggle)
+    □ cardano-balances
+    □ cardano-identity
+    □ cardano-staking
+    □ cardano-transactions
+```
+
+### Browse Available Skills
+
+```bash
+npx @indigoprotocol/cardano-skills --list
+```
+
+### Install a Specific Skill
+
+```bash
+npx @indigoprotocol/cardano-skills --skill cardano-balances
+```
+
+### Install to a Specific Agent
+
+```bash
+npx @indigoprotocol/cardano-skills --agent claude-code
+npx @indigoprotocol/cardano-skills --agent cursor
+```
+
+### Install Globally (user-level)
+
+```bash
+npx @indigoprotocol/cardano-skills --global
+```
+
+### Alternative: Standard Skills CLI
 
 ```bash
 npx skills add IndigoProtocol/cardano-ai
 ```
 
-### ClawHub (OpenClaw)
+### Alternative: ClawHub (OpenClaw)
 
 ```bash
 clawhub install cardano-balances
