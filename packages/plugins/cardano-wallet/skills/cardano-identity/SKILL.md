@@ -6,6 +6,13 @@ license: MIT
 metadata:
   author: indigoprotocol
   version: '0.1.0'
+  openclaw:
+    emoji: "🪪"
+    requires:
+      env: [SEED_PHRASE]
+    install:
+      - kind: node
+        package: "@indigoprotocol/cardano-mcp"
 ---
 
 # Cardano Identity — ADAHandles
