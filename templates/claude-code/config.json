@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "cardano": {
+      "command": "npx",
+      "args": ["@indigoprotocol/cardano-mcp"]
+    }
+  }
+}

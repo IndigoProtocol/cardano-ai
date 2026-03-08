@@ -1,0 +1,14 @@
+{
+  "name": "cardano-ai",
+  "displayName": "Cardano AI Skills",
+  "description": "AI skills for the Cardano blockchain",
+  "author": "Indigo Protocol",
+  "repository": "https://github.com/IndigoProtocol/cardano-ai",
+  "license": "MIT",
+  "skills": [
+    "./packages/plugins/cardano-wallet/skills/cardano-balances/SKILL.md",
+    "./packages/plugins/cardano-wallet/skills/cardano-identity/SKILL.md",
+    "./packages/plugins/cardano-wallet/skills/cardano-staking/SKILL.md",
+    "./packages/plugins/cardano-wallet/skills/cardano-transactions/SKILL.md"
+  ]
+}
