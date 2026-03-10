@@ -1,13 +1,22 @@
 {
   "name": "@indigoprotocol/cardano-skills",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Install Cardano AI skills for AI agents — wallet balances, identity, staking, and transactions",
-  "keywords": ["cardano", "skills", "wallet", "mcp", "ai-agents", "staking"],
+  "keywords": [
+    "cardano",
+    "skills",
+    "wallet",
+    "mcp",
+    "ai-agents",
+    "staking"
+  ],
   "type": "module",
   "bin": {
     "cardano-skills": "./bin/cardano-skills.mjs"
   },
-  "files": ["bin"],
+  "files": [
+    "bin"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
